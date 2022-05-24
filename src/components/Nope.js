@@ -6,7 +6,7 @@ const Nope = () => {
         <div>
             <h1>Page does not exist</h1>
         <div>
-        <Link to = "/"> 
+        <Link to = "/Welcome"> 
         {' '} 
         <button>Welcome Page</button> {' '}
         </Link>

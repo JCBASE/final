@@ -5,12 +5,11 @@ const Welcome = () => {
     return(
         <div>
             <h1>Welcome</h1>
-        <div>
-        <Link to = "container"> 
+
+        <Link to = "/Page"> 
         {' '} 
         <button>Click</button> {' '}
         </Link>
-        </div>
         </div>
     )
 }
