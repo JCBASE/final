@@ -9,29 +9,7 @@ import Page from './components/Page';
 import Nope from './components/Nope';
 import Container from './components/Container';
 
-/*class App extends React.Component{
-  constructor(props){
-    super(props)
 
-    this.state = {
-      isSignedUp: false
-    }
-  }
-
-  authChangeCallBack = () => {
-    this.setState({isSignUp: true})
-  }
-
-   showWelcome = () => {
-    if (this.state.isSignUp) {
-      return <Welcome />
-
-    } else {
-      return <SignUp userAuthChanged={this.authChangeCallBack}/>
-    }
-  }
-
-  render() { */
   function App() {
   return( 
     <div>
@@ -47,5 +25,4 @@ import Container from './components/Container';
   ) 
 }
 
-//}
 export default App;
