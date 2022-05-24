@@ -21,7 +21,7 @@ button:hover {
     max-height: 80px;
 }
 
-.Navbar .left .links a {
+.Navbar .left .links a{
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -76,5 +76,23 @@ color: black;
 
     .Navbar .left .links {
         display: none;
+    }
+
+    .Navbar .left #hidden{
+        position: absolute;
+        left: 0px;
+        top: 80px;
+        height: 230px;
+        max-height: 130px;
+        width: 100%;
+        background-color: midnightblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Navbar .left #hidden a{
+        margin: 10px;
+        font-size: 25px;
     }
 }

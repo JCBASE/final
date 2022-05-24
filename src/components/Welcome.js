@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 import "../style/Navbar.css"
 const Welcome = () => {
 
-    const [showLinks, setLinks] = useState(false)
+    const [showLinks, setShowLinks] = useState(false)
 
     return(
         <div className="Navbar"> 
         <div className="left">
-            <div className="links">
+            <div className="links" id = {showLinks ? "hidden" : ""}>
         <Link to = "/Welcome">Welcome</Link>
         <Link to = "/Page">Page</Link>
         </div>
-        <button>Open</button>
+        <button onClick = {()=> setShowLinks(!showLinks)}> Open Nav</button>
         </div>
         <div className="right">
             <input type = "text" placeholder='Search...'/>
