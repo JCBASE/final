@@ -9,6 +9,8 @@ const Page = () => {
         {' '} 
         <button>Welcome Page</button> {' '}
         </Link>
+        <p>A lot could have been done here.</p>
+        <p>Just click the button.</p>
         </div>
     )
 }

@@ -8,6 +8,7 @@ import Welcome from './components/Welcome';
 import Page from './components/Page';
 import Nope from './components/Nope';
 import Container from './components/Container';
+import Navbar from './components/Navbar'
 
 
   function App() {

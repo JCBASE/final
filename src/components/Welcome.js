@@ -1,25 +1,19 @@
 import React, {useState} from 'react'
+import Navbar from './Navbar'
 import { Link } from 'react-router-dom'
-import "../style/Navbar.css"
 const Welcome = () => {
 
-    const [showLinks, setShowLinks] = useState(false)
 
     return(
-        <div className="Navbar"> 
-        <div className="left">
-            <div className="links" id = {showLinks ? "hidden" : ""}>
-        <Link to = "/Welcome">Welcome</Link>
-        <Link to = "/Page">Page</Link>
-        </div>
-        <button onClick = {()=> setShowLinks(!showLinks)}> Open Nav</button>
-        </div>
-        <div className="right">
-            <input type = "text" placeholder='Search...'/>
-            <button>Search</button>
+        <div>
+            <Navbar /> 
+            <h1>Welcome</h1>
+            <p>Try shrinking the page.</p>
+            <p>Did you click "Open Nav"?</p>
+            <p>Cool, oh the search bar? Yeah that doesn't work, it's for asthetic.</p>
+            <p>NGL, worked on this final for 2 days, just went for checking requirements.</p>
+            <p>A lot happened, so just enjoy the routing.</p>
             </div>
-
-        </div>
     )
 }
 export default Welcome
