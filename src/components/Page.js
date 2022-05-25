@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-const Page = () => {
+const Page =() => {
 
     return(
         <div>
@@ -10,6 +10,7 @@ const Page = () => {
         <button>Welcome Page</button> {' '}
         </Link>
         <p>A lot could have been done here.</p>
+        <p>But the sign up page was pretty cool.</p>
         <p>Just click the button.</p>
         </div>
     )

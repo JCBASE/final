@@ -1,14 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import SignUp from './components/SignUp';
 import Welcome from './components/Welcome';
 import Page from './components/Page';
 import Nope from './components/Nope';
 import Container from './components/Container';
-import Navbar from './components/Navbar'
 
 
   function App() {
